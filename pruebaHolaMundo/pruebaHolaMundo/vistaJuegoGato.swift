@@ -9,28 +9,29 @@ import SwiftUI
 
 struct VistaJuegoGato: View {
     var body: some View {
-        Text("Juego del gato ₍^. .^₎⟆")
-            .bold(true)
+            
+            Text("Juego del gato ₍^. .^₎⟆")
+                .bold(true)
+            
+            HStack {
+                botonTicTac()
+                botonTicTac()
+                botonTicTac()
+            }
+            HStack {
+                botonTicTac()
+                botonTicTac()
+                botonTicTac()
+            }
+            HStack {
+                botonTicTac()
+                botonTicTac()
+                botonTicTac()
+            }
+            
+        }
         
-        HStack {
-            botonTicTac()
-            botonTicTac()
-            botonTicTac()
-        }
-        HStack {
-            botonTicTac()
-            botonTicTac()
-            botonTicTac()
-        }
-        HStack {
-            botonTicTac()
-            botonTicTac()
-            botonTicTac()
-        }
-        
-
     }
-}
 
 #Preview {
     VistaJuegoGato()
